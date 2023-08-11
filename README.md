@@ -3,10 +3,6 @@
 
 Aplicativo para realização do processo de CRUD (create - read - update - dekete) de usuários.
 
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
-
-
 ## Autores
 
 - [@willianrodrigo](https://github.com/willHub99)
