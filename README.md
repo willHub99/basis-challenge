@@ -1,7 +1,7 @@
 
 # CRUD users
 
-Aplicativo para realização do processo de CRUD (create - read - update - dekete) de usuários.
+Aplicativo para realização do processo de CRUD (create - read - update - delete) de usuários.
 
 ## Autores
 
