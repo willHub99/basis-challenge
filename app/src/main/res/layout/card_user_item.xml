@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/ivDetailUser"
+        android:layout_width="0dp"
+        android:layout_height="188dp"
+        android:src="@drawable/background_card_user_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNameUser"
+        android:layout_width="0dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/roboto_regular"
+        android:minWidth="157dp"
+        android:textColor="@color/cod_gray"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/ivDetailUser"
+        app:layout_constraintTop_toTopOf="@+id/ivDetailUser"
+        tools:text="Antonio lima" />
+
+    <TextView
+        android:id="@+id/tvDocumentUser"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/cod_gray"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ivDetailUser"
+        app:layout_constraintTop_toBottomOf="@+id/tvEmailUser"
+        tools:text="CPF: 000.123.466-8" />
+
+    <TextView
+        android:id="@+id/tvPhoneUser"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/cod_gray"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvNameUser"
+        app:layout_constraintEnd_toEndOf="@+id/ivDetailUser"
+        app:layout_constraintStart_toEndOf="@+id/tvNameUser"
+        app:layout_constraintTop_toTopOf="@+id/tvNameUser"
+        tools:text="(45) 5 4578-8956" />
+
+    <TextView
+        android:id="@+id/tvEmailUser"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/cod_gray"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ivDetailUser"
+        app:layout_constraintTop_toBottomOf="@+id/tvNameUser"
+        tools:text="E-mail: antonio@gmail.com" />
+
+    <ImageButton
+        android:id="@+id/ibDeleteUser"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="@string/alert_dialog_delete_user"
+        android:src="@drawable/delete"
+        app:layout_constraintBottom_toBottomOf="@+id/ibEditUser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ibEditUser"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/ibEditUser"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="@string/alert_dialog_delete_user"
+        android:src="@drawable/edit"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDetailUser"
+        app:layout_constraintStart_toEndOf="@+id/ibDeleteUser"
+        app:layout_constraintTop_toBottomOf="@+id/tvDocumentUser" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

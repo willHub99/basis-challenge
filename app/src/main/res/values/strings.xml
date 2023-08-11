@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">basis challenge</string>
+    <string name="delete">Excluir</string>
+    <string name="edit">Editar</string>
+    <string name="save">Salvar</string>
+    <string name="delete_content_description">botão para excluir um endereço de um usuario</string>
+    <string name="type_user_description">icone que define o tipo de endereço cadastrado por um usuário</string>
+    <string name="card_address_description">background da view que apresenta as informações do endereço do usuário</string>
+    <string name="card_alert_dialog">background da view que apresenta o alert dialog</string>
+    <string name="alert_dialog_delete_user">Você tem certeza que deseja excluir esse usuário ?</string>
+    <string name="alert_dialog_delete_user_address">Você tem certeza que deseja excluir esse endereço ?</string>
+    <string name="confirm_delete">Sim</string>
+    <string name="not_allowed_delete">Não</string>
+    <string name="hint_search">Pesquisar por nome</string>
+    <string name="users_text">Usuários</string>
+    <string name="add_new_user">botão para  adicionar novo usuário</string>
+    <string name="add_new_user_address">adicionar endereço</string>
+    <string name="type_user">Tipo de pessoa</string>
+    <string name="type_address">Tipo de endereço</string>
+
+    <string name="name_field">Nome</string>
+    <string name="social_reason_field">Razão Social</string>
+    <string name="cpf_field">CPF</string>
+    <string name="number_field">Número</string>
+    <string name="complement_field">Complemento</string>
+    <string name="neighborhood_field">Bairo</string>
+    <string name="address_field">Endereço</string>
+    <string name="uf_field">UF</string>
+    <string name="city_field">Cidade</string>
+    <string name="cep_field">CEP</string>
+    <string name="cnpj_field">CNPJ</string>
+    <string name="phone_field">Telefone</string>
+    <string name="email_field">E-mail</string>
+    <string name="endereco">Endereços</string>
+    <string name="add_user_address_description">icone para cadastrar um novo endereço para um usuário</string>
+    <string name="address_residencial_type">residencial</string>
+    <string name="address_comercial_type">comercial</string>
+    <string name="searchbar_description">search bar content layout description</string>
+
+    <string-array name="user_types">
+        <item>fisíca</item>
+        <item>jurídica</item>
+    </string-array>
+
+    <string-array name="user_address_types">
+        <item>residencial</item>
+        <item>comercial</item>
+    </string-array>
+</resources>

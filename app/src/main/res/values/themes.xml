@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BasisChallenge" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/cod_gray</item>
+        <item name="colorPrimaryDark">@color/boulder</item>
+        <item name="colorAccent">@color/shiraz</item>
+        <item name="background">@color/white</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="colorSurface">@color/background_search</item>
+
+    </style>
+
+    <style name="Theme.BasisChallenge" parent="Base.Theme.BasisChallenge" />
+</resources>

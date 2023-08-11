@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="shiraz">#FFAC1139</color>
+    <color name="sft_amber">#FFCFC1B4</color>
+    <color name="cod_gray">#FF0A0A0A</color>
+    <color name="boulder">#FF747474</color>
+    <color name="text_field">#FFD9D9D9</color>
+    <color name="background_search">#FFFFFAFA</color>
+</resources>
